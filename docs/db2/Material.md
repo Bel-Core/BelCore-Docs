@@ -93,7 +93,5 @@ The `Flags` column is a bitfield:
 
 ### Related Tables
 
-- [`SoundKit.db2`](../soundkit-db2): Used to resolve FoleySoundID, Sheathe/UnsheatheSoundIDs.
-- [`ItemDisplayInfo.db2`](../itemdisplayinfo-db2): May reference materials for armor visuals/sound.
 
 ---
