@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbel_core_docs=self.webpackChunkbel_core_docs||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/BelCore-Docs/blog","blogTitle":"Blog","authorsListPath":"/BelCore-Docs/blog/authors"}')}}]);
