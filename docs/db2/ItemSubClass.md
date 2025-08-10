@@ -183,3 +183,56 @@ Below is the full ItemSubClass.db2 file.
 ### Hotfix Layout:
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 |-------|------|------------|-----|------|---------|-------|---------|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style={{ fontSize: '0.9em', color: 'var(--ifm-color-content-secondary)' }}>
+
+### 🖋️ Credits
+
+This documentation was written and maintained by [**Sylian**](https://github.com/Sylian1337), creator of **SylCore** and educator on [YouTube](https://www.youtube.com/@DEVSylian).
+
+If you use this, consider contributing back, or showing your support to the authors 🙏
+
+</div>

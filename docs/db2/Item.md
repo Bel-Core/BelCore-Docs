@@ -43,49 +43,104 @@ Below is the Item.db2, please note, this is not the full file dumped, but the Fi
 ### Columns:
 
 - **ID**: Unique identifier for the item entry.
-- **ClassID**: ID for the Class (Weapon, Plate, Leather...) [See ItemClass.db2 →](/docs/db2/ItemClass.md)
-- **SubclassID**: ID for the sub-class (Twohanded, one-handed, chest, robe...) [See ItemSubclass.db2 →](/docs/db2/ItemSubClass.md)
+- **ClassID**: ID for the Class (Weapon, Plate, Leather...) [See ItemClass.db2 →](/docs/db2/ItemClass)
+- **SubclassID**: ID for the sub-class (Twohanded, one-handed, chest, robe...) [See ItemSubclass.db2 →](/docs/db2/ItemSubClass)
 - **Material**: ID for the item's material type, used for sound and visual logic. [See Material.db2 →](/docs/db2/Material)
 - **InventoryType**: Equipment slot the item occupies. [See InventoryType →](/docs/references/InventoryType)
 - **SheatheType**: ID of the sheathe type, so location of the weapon when not holding item.
 - **SoundOverrideSubclassID**: ID of the sound subclass for overriding the sound (Might need to update later)
-- **IconFileDataID**: NOT KNOWN YET!
-- **ItemGroupSoundsID**: NOT KNOWN YET!
+- **IconFileDataID**: ID of an icon image used in the client. [See FileDataID →](/docs/references/FileDataID)
+- **ItemGroupSoundsID**: ID of the group of sounds this item uses [See ItemGroupSounds.db2 ->](/docs/db2/ItemGroupSounds)
 - **ContentTuningID**: NOT KNOWN YET!
 - **ModifiedCraftingReagentItemID**: NOT KNOWN YET!
-- **CraftingQualityID**: NOT KNOWN YET!
-- **VerifiedBuild**: Build ID where this item was added.
+- **CraftingQualityID**: ID of the crafting quality that this item has, crafting qualities are only for reagent items, not crafted items themselves. [See CraftingQuality.db2 ->](/docs/db2/CraftingQuality.md)
+- **VerifiedBuild**: [See VerifiedBuild ->](/docs/references/VerifiedBuild)
 ---
 
 ### ClassID Breakdown
 
 Click "Learn More" to learn about the ClassID field:
-[Learn More →](/docs/db2/ItemClass.md)
+[Learn More →](/docs/db2/ItemClass)
 
 ---
-
 
 ### SubclassID Breakdown
 
 Click "Learn More" to learn about the SubclassID field:
-[Learn More →](/docs/db2/ItemSubClass.md)
+[Learn More →](/docs/db2/ItemSubClass)
 
 ---
-
 
 ### Material Breakdown
 
 Click "Learn More" to learn about the Material field:
-[Learn More →](/docs/db2/Material.md)
+[Learn More →](/docs/db2/Material)
 
 ---
-
 
 ### InventoryType Breakdown
 
 See full list here: [InventoryType Reference →](/docs/references/InventoryType)
 
+---
 
+### SheatheType Breakdown
+
+(Update this)
+See full list here: 
+[Learn More →](/docs/db2/ItemGroupSounds)
+
+---
+
+### SoundOverrideSubclassID Breakdown
+
+(Update this)
+See full list here: 
+[Learn More →](/docs/db2/ItemGroupSounds)
+
+---
+
+### IconFileDataID Breakdown
+
+Click "Learn More" to learn about the IconFileDataID field:
+[Learn more](/docs/references/FileDataID)
+
+---
+
+### ItemGroupSounds Breakdown
+
+See full list here: 
+[Learn More →](/docs/db2/ItemGroupSounds)
+
+---
+
+### ContentTuningID Breakdown
+
+(Update this)
+See full list here: 
+[Learn More →](/docs/db2/ItemGroupSounds)
+
+---
+
+### ModifiedCraftingReagentItemID Breakdown
+
+(Update this)
+See full list here: 
+[Learn More →](/docs/db2/ItemGroupSounds)
+
+---
+
+### CraftingQualityID Breakdown
+
+Click "Learn More" to learn about the CraftingQualityID field:
+[Learn More →](/docs/db2/CraftingQuality.md)
+
+---
+
+### VerifiedBuild Breakdown
+
+Click "Learn More" to learn about the VerifiedBuild field:
+[Learn More →](/docs/references/VerifiedBuild)
 
 ---
 

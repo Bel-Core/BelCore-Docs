@@ -5,6 +5,8 @@ sidebar_position: 1
 # ItemSubClassMask
 Here you will be able to learn more about the DB2.
 
+---
+
 
 ### Layout:
 
@@ -22,7 +24,62 @@ Here you will be able to learn more about the DB2.
 | 11  | One-Handed Melee Weapon | 2       | 8337           |
 | 112 | Shield                  | 4       | 64             |
 
+---
 
 ### Hotfix Layout:
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 |-------|------|------------|-----|------|---------|-------|---------|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style={{ fontSize: '0.9em', color: 'var(--ifm-color-content-secondary)' }}>
+
+### 🖋️ Credits
+
+This documentation was written and maintained by [**Sylian**](https://github.com/Sylian1337), creator of **SylCore** and educator on [YouTube](https://www.youtube.com/@DEVSylian).
+
+If you use this, consider contributing back, or showing your support to the authors 🙏
+
+</div>

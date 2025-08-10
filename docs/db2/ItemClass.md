@@ -33,5 +33,131 @@ Here you will be able to learn more about the DB2.
 
 
 ### Hotfix Layout:
-| Field | Type | Attributes | Key | Null | Default | Extra | Comment |
-|-------|------|------------|-----|------|---------|-------|---------|
+| Field | Type | Length | Unsigned | Key | Null | Default | ZeroFill | Extra | Comment |
+|-------|------|--------|------------|-----|------|---------|----------|-------|---------|
+| ID | INT |  | YES | PRI | NO | 0 | NO |  |  |
+| ClassName | TEXT | 65535 | NO |  | YES |  | NO |  |  |
+| ClassID | TINYINT |  | NO |  | NO | 0 | NO |  |  |
+| PriceModifier | FLOAT |  | NO |  | NO | 0 | NO |  |  |
+| Flags | TINYINT |  | YES |  | NO | 0 | NO |  |  |
+| VerifiedBuild | INT |  | NO |  | NO | 0 | NO |  |  |
+
+
+### Columns:
+
+- **ID**: Unique identifier for the ItemClass entry.
+- **ClassNamelang/ClassName**: The class name
+- **ClassID**: Class ID for usage in other files + tables.
+- **PriceModifier**: Price modifier based on the ItemClass.
+- **Flags**: NOT KNOWN YET
+- **VerifiedBuild**: [See VerifiedBuild ->](/docs/references/VerifiedBuild)
+
+---
+
+
+### ID Breakdown
+
+The `ID` is not used for anything.
+
+---
+
+### ClassNamelang/ClassName Breakdown
+
+`ClassNamelang/ClassName` is for the class name.
+
+---
+
+### ClassID Breakdown
+
+`ClassID` is the ID used across other files + tables as the identifier for the ItemClass.
+
+---
+
+### PriceModifier Breakdown
+
+`PriceModifier` is the modifier for the price for this ItemClass.
+So if its a `Weapon`, it would of course sell for more than a Consumable.
+
+---
+
+
+### Flags Breakdown
+
+No idea yet, will update when we figure it out.
+
+---
+
+### VerifiedBuild Breakdown
+
+Click "Learn More" to learn about the VerifiedBuild field:
+[Learn More →](/docs/references/VerifiedBuild)
+
+---
+
+
+
+### Related Tables
+
+None for now.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style={{ fontSize: '0.9em', color: 'var(--ifm-color-content-secondary)' }}>
+
+### 🖋️ Credits
+
+This documentation was written and maintained by [**Sylian**](https://github.com/Sylian1337), creator of **SylCore** and educator on [YouTube](https://www.youtube.com/@DEVSylian).
+
+If you use this, consider contributing back, or showing your support to the authors 🙏
+
+</div>

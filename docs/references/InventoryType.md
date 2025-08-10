@@ -14,7 +14,7 @@
 | 11 | Finger                                                                                    |
 | 12 | Trinket                                                                                   |
 | 13 | One-Hand (not to confuse with Off-Hand = 22)                                              |
-| 14 | Shield (class = armor, not weapon even if in weapon slot)                                |
+| 14 | Shield (class = armor, not weapon even if in weapon slot)                                 |
 | 15 | Ranged (Bows) (see also Ranged right = 26)                                                |
 | 16 | Back                                                                                      |
 | 17 | Two-Hand                                                                                  |
@@ -28,4 +28,16 @@
 | 25 | Thrown                                                                                    |
 | 26 | Ranged right (Wands, Guns) (see also Ranged = 15)                                         |
 | 27 | Quiver                                                                                    |
-| 28 | Relic (class = armor, not weapon even if in weapon slot)                                 |
+| 28 | Relic (class = armor, not weapon even if in weapon slot)                                  |
+
+---
+
+<div style={{ fontSize: '0.9em', color: 'var(--ifm-color-content-secondary)' }}>
+
+### 🖋️ Credits
+
+This documentation was written and maintained by [**Sylian**](https://github.com/Sylian1337), creator of **SylCore** and educator on [YouTube](https://www.youtube.com/@DEVSylian).
+
+If you use this, consider contributing back, or showing your support to the authors 🙏
+
+</div>
